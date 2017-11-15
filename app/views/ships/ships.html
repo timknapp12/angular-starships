@@ -1,0 +1,7 @@
+<h1>All of our ships are amazing</h1>
+
+<div ng-repeat='ship in ships'>
+    <a  ui-sref='ship(ship)'><h3>{{ship.name}}</h3></a>
+    <h3>{{ship.model}} --- {{ship.cost_in_credits | currency}}</h3>
+
+</div>
